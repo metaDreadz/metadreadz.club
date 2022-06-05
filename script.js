@@ -1,9 +1,11 @@
+const botaoPlay = document.querySelector('.botaoPlay')
+
 function laodSong() {
     audio.src = `music/${ComingSoon-1}.mp3`
 }
 
 function playSong() {
-    musicContainer.classList.add('play');
+    botao-play.classList.add('play');
     playBtn.querySelector('i.fas').classList.remove('fa-play');
     playBtn.querySelector('i.fas').classList.add('fa-pause');
 
@@ -18,7 +20,7 @@ function pauseSong() {
 }
 
 playBtn.addEventListener('click', () => {
-    const isPlaying = musicContainer.classList.contains('paly');
+    const isPlaying = botao-play.classList.contains('paly');
 
     if (isPlaying) {
         pauseSong();
