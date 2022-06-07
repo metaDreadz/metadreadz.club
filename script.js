@@ -1,7 +1,7 @@
 const botaoPlay = document.querySelector('.botaoPlay')
 
 function laodSong() {
-    audio.src = `music/${ComingSoon-1}.mp3`
+    audio.src = `music/${MetaDreadz - ComingSoon.mp3}`
 }
 
 function playSong() {
